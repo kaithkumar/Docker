@@ -1,5 +1,5 @@
-FROM centos:latest
-
+# FROM centos:latest
+FROM debian:latest
 RUN yum install -y httpd
 
 EXPOSE 80
